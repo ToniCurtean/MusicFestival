@@ -1,0 +1,284 @@
+02 Nov 2023 09:30:30,687 INFO  org.example.jdbc.CashierDBRepository 25 <init> - Initializing CashierRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 09:30:30,691 INFO  org.example.jdbc.ArtistDBRepository 24 <init> - Initializing ArtistsRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 09:30:30,693 INFO  org.example.jdbc.ConcertDBRepository 25 <init> - Initializing ConcertDBRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 09:30:30,694 INFO  org.example.jdbc.OrderDBRepository 20 <init> - Initializing OrderDBRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 09:32:14,356 INFO  org.example.jdbc.CashierDBRepository 25 <init> - Initializing CashierRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 09:32:14,360 INFO  org.example.jdbc.ArtistDBRepository 24 <init> - Initializing ArtistsRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 09:32:14,361 INFO  org.example.jdbc.ConcertDBRepository 25 <init> - Initializing ConcertDBRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 09:32:14,362 INFO  org.example.jdbc.OrderDBRepository 20 <init> - Initializing OrderDBRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 09:33:22,952 TRACE org.example.jdbc.CashierDBRepository 76 getCashierByUserPassword - Enter find by username and password task {}
+02 Nov 2023 09:33:22,953 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:22,953 TRACE org.example.jdbc.JdbcUtils 23 getNewConnection - Enter
+02 Nov 2023 09:33:22,953 INFO  org.example.jdbc.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival
+02 Nov 2023 09:33:22,954 INFO  org.example.jdbc.JdbcUtils 30 getNewConnection - user: null
+02 Nov 2023 09:33:22,954 INFO  org.example.jdbc.JdbcUtils 31 getNewConnection - pass: null
+02 Nov 2023 09:33:23,170 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 09:33:23,173 TRACE org.example.jdbc.CashierDBRepository 94 getCashierByUserPassword - Exit with(org.example.Cashier@290a4af8)
+02 Nov 2023 09:33:24,183 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 09:33:24,184 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:24,185 TRACE org.example.jdbc.JdbcUtils 23 getNewConnection - Enter
+02 Nov 2023 09:33:24,185 INFO  org.example.jdbc.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival
+02 Nov 2023 09:33:24,186 INFO  org.example.jdbc.JdbcUtils 30 getNewConnection - user: null
+02 Nov 2023 09:33:24,187 INFO  org.example.jdbc.JdbcUtils 31 getNewConnection - pass: null
+02 Nov 2023 09:33:24,189 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@555b7c30)
+02 Nov 2023 09:33:24,191 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 09:33:25,204 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 09:33:25,204 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:25,205 TRACE org.example.jdbc.JdbcUtils 23 getNewConnection - Enter
+02 Nov 2023 09:33:25,205 INFO  org.example.jdbc.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival
+02 Nov 2023 09:33:25,205 INFO  org.example.jdbc.JdbcUtils 30 getNewConnection - user: null
+02 Nov 2023 09:33:25,206 INFO  org.example.jdbc.JdbcUtils 31 getNewConnection - pass: null
+02 Nov 2023 09:33:25,207 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@596ecd03)
+02 Nov 2023 09:33:25,210 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 09:33:26,216 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 09:33:26,217 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:26,217 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@596ecd03)
+02 Nov 2023 09:33:26,219 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@e8afec85)
+02 Nov 2023 09:33:37,287 TRACE org.example.jdbc.ConcertDBRepository 104 getConcertsByDate - Enter get concerts by date task {}
+02 Nov 2023 09:33:37,288 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:37,288 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@555b7c30)
+02 Nov 2023 09:33:37,289 TRACE org.example.jdbc.ConcertDBRepository 126 getConcertsByDate - Exit with([org.example.Concert@ad7ccde1])
+02 Nov 2023 09:33:38,301 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 09:33:38,301 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:38,301 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@596ecd03)
+02 Nov 2023 09:33:38,302 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 09:33:56,915 TRACE org.example.jdbc.ConcertDBRepository 154 getConcertByDateLocationStart - Enter get concert by date,location and start time
+02 Nov 2023 09:33:56,915 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:56,915 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@555b7c30)
+02 Nov 2023 09:33:56,916 TRACE org.example.jdbc.ConcertDBRepository 176 getConcertByDateLocationStart - Exit with(org.example.Concert@ad7ccde1)
+02 Nov 2023 09:33:57,925 TRACE org.example.jdbc.ConcertDBRepository 31 findOne - Enter find concert by id task{}
+02 Nov 2023 09:33:57,925 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:57,925 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@555b7c30)
+02 Nov 2023 09:33:57,926 TRACE org.example.jdbc.ConcertDBRepository 53 findOne - Exit with(org.example.Concert@ad7ccde1)
+02 Nov 2023 09:33:57,926 TRACE org.example.jdbc.ConcertDBRepository 134 updateConcertTickets - Enter update concert tickets by id {}
+02 Nov 2023 09:33:57,926 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:57,926 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@555b7c30)
+02 Nov 2023 09:33:57,987 TRACE org.example.jdbc.ConcertDBRepository 142 updateConcertTickets - updated 1 objects
+02 Nov 2023 09:33:57,988 TRACE org.example.jdbc.OrderDBRepository 36 save - Enter saving order task{}
+02 Nov 2023 09:33:57,989 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:57,989 TRACE org.example.jdbc.JdbcUtils 23 getNewConnection - Enter
+02 Nov 2023 09:33:57,990 INFO  org.example.jdbc.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival
+02 Nov 2023 09:33:57,991 INFO  org.example.jdbc.JdbcUtils 30 getNewConnection - user: null
+02 Nov 2023 09:33:57,991 INFO  org.example.jdbc.JdbcUtils 31 getNewConnection - pass: null
+02 Nov 2023 09:33:57,995 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@6cdcdb20)
+02 Nov 2023 09:33:58,011 TRACE org.example.jdbc.OrderDBRepository 43 save - saved 1 objects
+02 Nov 2023 09:33:58,012 TRACE org.example.jdbc.OrderDBRepository 48 save - Exit with(org.example.Order@3c711a6)
+02 Nov 2023 09:33:58,013 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:58,013 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 09:33:58,014 TRACE org.example.jdbc.CashierDBRepository 55 findAll - Exit with([org.example.Cashier@5526d5b4, org.example.Cashier@44650b98])
+02 Nov 2023 09:33:58,015 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 09:33:58,016 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:58,016 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@555b7c30)
+02 Nov 2023 09:33:58,018 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 09:33:58,018 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 09:33:58,019 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:58,020 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@596ecd03)
+02 Nov 2023 09:33:58,021 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 09:33:58,021 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 09:33:58,022 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:58,022 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@596ecd03)
+02 Nov 2023 09:33:58,022 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@e8afec85)
+02 Nov 2023 09:33:58,025 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 09:33:58,026 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 09:33:58,026 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@555b7c30)
+02 Nov 2023 09:33:58,027 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 10:11:50,360 INFO  org.example.jdbc.CashierDBRepository 25 <init> - Initializing CashierRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:11:50,366 INFO  org.example.jdbc.ArtistDBRepository 24 <init> - Initializing ArtistsRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:11:50,368 INFO  org.example.jdbc.ConcertDBRepository 25 <init> - Initializing ConcertDBRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:11:50,369 INFO  org.example.jdbc.OrderDBRepository 20 <init> - Initializing OrderDBRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:12:09,044 TRACE org.example.jdbc.CashierDBRepository 76 getCashierByUserPassword - Enter find by username and password task {}
+02 Nov 2023 10:12:09,044 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:09,045 TRACE org.example.jdbc.JdbcUtils 23 getNewConnection - Enter
+02 Nov 2023 10:12:09,045 INFO  org.example.jdbc.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival
+02 Nov 2023 10:12:09,045 INFO  org.example.jdbc.JdbcUtils 30 getNewConnection - user: null
+02 Nov 2023 10:12:09,045 INFO  org.example.jdbc.JdbcUtils 31 getNewConnection - pass: null
+02 Nov 2023 10:12:09,263 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:09,266 TRACE org.example.jdbc.CashierDBRepository 94 getCashierByUserPassword - Exit with(org.example.Cashier@290a4af8)
+02 Nov 2023 10:12:10,282 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 10:12:10,283 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:10,284 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:10,286 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 10:12:11,307 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 10:12:11,307 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:11,307 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:11,308 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 10:12:12,318 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 10:12:12,318 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:12,318 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:12,319 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@e8afec85)
+02 Nov 2023 10:12:29,737 TRACE org.example.jdbc.CashierDBRepository 76 getCashierByUserPassword - Enter find by username and password task {}
+02 Nov 2023 10:12:29,738 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:29,739 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:29,740 TRACE org.example.jdbc.CashierDBRepository 94 getCashierByUserPassword - Exit with(org.example.Cashier@44d8bccc)
+02 Nov 2023 10:12:30,755 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 10:12:30,755 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:30,757 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:30,757 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 10:12:31,769 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 10:12:31,769 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:31,770 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:31,770 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 10:12:32,783 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 10:12:32,783 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:32,784 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:32,784 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@e8afec85)
+02 Nov 2023 10:12:41,400 TRACE org.example.jdbc.ConcertDBRepository 154 getConcertByDateLocationStart - Enter get concert by date,location and start time
+02 Nov 2023 10:12:41,400 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:41,401 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:41,402 TRACE org.example.jdbc.ConcertDBRepository 176 getConcertByDateLocationStart - Exit with(org.example.Concert@ad7ccde1)
+02 Nov 2023 10:12:42,421 TRACE org.example.jdbc.ConcertDBRepository 31 findOne - Enter find concert by id task{}
+02 Nov 2023 10:12:42,422 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:42,423 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:42,424 TRACE org.example.jdbc.ConcertDBRepository 53 findOne - Exit with(org.example.Concert@ad7ccde1)
+02 Nov 2023 10:12:42,425 TRACE org.example.jdbc.ConcertDBRepository 134 updateConcertTickets - Enter update concert tickets by id {}
+02 Nov 2023 10:12:42,425 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:42,426 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:42,437 TRACE org.example.jdbc.ConcertDBRepository 142 updateConcertTickets - updated 1 objects
+02 Nov 2023 10:12:42,438 TRACE org.example.jdbc.OrderDBRepository 36 save - Enter saving order task{}
+02 Nov 2023 10:12:42,438 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:42,438 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:42,447 TRACE org.example.jdbc.OrderDBRepository 43 save - saved 1 objects
+02 Nov 2023 10:12:42,447 TRACE org.example.jdbc.OrderDBRepository 48 save - Exit with(org.example.Order@8f1e5b96)
+02 Nov 2023 10:12:42,448 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:42,448 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:42,449 TRACE org.example.jdbc.CashierDBRepository 55 findAll - Exit with([org.example.Cashier@1d669b5f, org.example.Cashier@ff909])
+02 Nov 2023 10:12:42,450 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 10:12:42,450 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:42,450 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:42,450 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 10:12:42,451 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 10:12:42,451 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:42,452 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:42,452 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 10:12:42,452 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 10:12:42,453 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:42,453 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:42,453 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@e8afec85)
+02 Nov 2023 10:12:42,455 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 10:12:42,455 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 10:12:42,457 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:42,458 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:42,458 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:12:42,458 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 10:12:42,459 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:12:42,460 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 10:13:54,533 INFO  org.example.jdbc.CashierDBRepository 25 <init> - Initializing CashierRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:13:54,536 INFO  org.example.jdbc.ArtistDBRepository 24 <init> - Initializing ArtistsRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:13:54,537 INFO  org.example.jdbc.ConcertDBRepository 25 <init> - Initializing ConcertDBRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:13:54,538 INFO  org.example.jdbc.OrderDBRepository 20 <init> - Initializing OrderDBRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:17:37,089 INFO  org.example.jdbc.CashierDBRepository 25 <init> - Initializing CashierRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:17:37,094 INFO  org.example.jdbc.ArtistDBRepository 24 <init> - Initializing ArtistsRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:17:37,097 INFO  org.example.jdbc.ConcertDBRepository 25 <init> - Initializing ConcertDBRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:17:37,100 INFO  org.example.jdbc.OrderDBRepository 20 <init> - Initializing OrderDBRepository with properties: {festival.jdbc.url=jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=55556} 
+02 Nov 2023 10:17:54,997 TRACE org.example.jdbc.CashierDBRepository 76 getCashierByUserPassword - Enter find by username and password task {}
+02 Nov 2023 10:17:54,998 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:17:54,998 TRACE org.example.jdbc.JdbcUtils 23 getNewConnection - Enter
+02 Nov 2023 10:17:54,998 INFO  org.example.jdbc.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival
+02 Nov 2023 10:17:54,998 INFO  org.example.jdbc.JdbcUtils 30 getNewConnection - user: null
+02 Nov 2023 10:17:54,999 INFO  org.example.jdbc.JdbcUtils 31 getNewConnection - pass: null
+02 Nov 2023 10:17:55,160 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:17:55,165 TRACE org.example.jdbc.CashierDBRepository 94 getCashierByUserPassword - Exit with(org.example.Cashier@290a4af8)
+02 Nov 2023 10:17:56,170 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 10:17:56,171 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:17:56,171 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:17:56,173 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 10:17:57,196 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 10:17:57,197 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:17:57,197 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:17:57,199 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 10:17:58,207 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 10:17:58,208 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:17:58,208 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:17:58,209 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@e8afec85)
+02 Nov 2023 10:19:46,253 TRACE org.example.jdbc.CashierDBRepository 76 getCashierByUserPassword - Enter find by username and password task {}
+02 Nov 2023 10:19:46,255 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:19:46,255 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:19:46,255 TRACE org.example.jdbc.CashierDBRepository 94 getCashierByUserPassword - Exit with(org.example.Cashier@44d8bccc)
+02 Nov 2023 10:19:47,265 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 10:19:47,265 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:19:47,265 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:19:47,266 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 10:19:48,276 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 10:19:48,277 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:19:48,277 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:19:48,278 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 10:19:49,284 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 10:19:49,285 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 10:19:49,286 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@4a547402)
+02 Nov 2023 10:19:49,287 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@e8afec85)
+02 Nov 2023 15:03:59,308 INFO  org.example.jdbc.CashierDBRepository 25 <init> - Initializing CashierRepository with: org.example.jdbc.JdbcUtils@f5acb9d 
+02 Nov 2023 15:03:59,314 INFO  org.example.jdbc.ArtistDBRepository 24 <init> - Initializing ArtistsRepository with org.example.jdbc.JdbcUtils@f5acb9d 
+02 Nov 2023 15:03:59,317 INFO  org.example.jdbc.ConcertDBRepository 25 <init> - Initializing ConcertDBRepository with org.example.jdbc.JdbcUtils@f5acb9d
+02 Nov 2023 15:03:59,318 INFO  org.example.jdbc.OrderDBRepository 20 <init> - Initializing OrderDBRepository : org.example.jdbc.JdbcUtils@f5acb9d 
+02 Nov 2023 15:04:31,198 TRACE org.example.jdbc.CashierDBRepository 76 getCashierByUserPassword - Enter find by username and password task {}
+02 Nov 2023 15:04:31,199 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:04:31,200 TRACE org.example.jdbc.JdbcUtils 23 getNewConnection - Enter
+02 Nov 2023 15:04:31,200 INFO  org.example.jdbc.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/faculta/anun2/SEM2/MPP/laborator/labServiceUIJava/labServiceUIJava/musicfestival
+02 Nov 2023 15:04:31,200 INFO  org.example.jdbc.JdbcUtils 30 getNewConnection - user: null
+02 Nov 2023 15:04:31,201 INFO  org.example.jdbc.JdbcUtils 31 getNewConnection - pass: null
+02 Nov 2023 15:04:31,460 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:04:31,463 TRACE org.example.jdbc.CashierDBRepository 94 getCashierByUserPassword - Exit with(org.example.Cashier@51577cbe)
+02 Nov 2023 15:04:32,471 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 15:04:32,472 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:04:32,473 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:04:32,475 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 15:04:33,499 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 15:04:33,500 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:04:33,501 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:04:33,502 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 15:04:34,512 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 15:04:34,513 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:04:34,514 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:04:34,515 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@e8afec85)
+02 Nov 2023 15:05:06,178 TRACE org.example.jdbc.ConcertDBRepository 154 getConcertByDateLocationStart - Enter get concert by date,location and start time
+02 Nov 2023 15:05:06,178 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:06,179 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:06,180 TRACE org.example.jdbc.ConcertDBRepository 176 getConcertByDateLocationStart - Exit with(org.example.Concert@ad7ccde1)
+02 Nov 2023 15:05:07,199 TRACE org.example.jdbc.ConcertDBRepository 31 findOne - Enter find concert by id task{}
+02 Nov 2023 15:05:07,199 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:07,200 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:07,201 TRACE org.example.jdbc.ConcertDBRepository 53 findOne - Exit with(org.example.Concert@ad7ccde1)
+02 Nov 2023 15:05:07,201 TRACE org.example.jdbc.ConcertDBRepository 134 updateConcertTickets - Enter update concert tickets by id {}
+02 Nov 2023 15:05:07,201 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:07,202 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:07,213 TRACE org.example.jdbc.ConcertDBRepository 142 updateConcertTickets - updated 1 objects
+02 Nov 2023 15:05:07,214 TRACE org.example.jdbc.OrderDBRepository 36 save - Enter saving order task{}
+02 Nov 2023 15:05:07,215 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:07,215 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:07,227 TRACE org.example.jdbc.OrderDBRepository 43 save - saved 1 objects
+02 Nov 2023 15:05:07,228 TRACE org.example.jdbc.OrderDBRepository 48 save - Exit with(org.example.Order@cc9281be)
+02 Nov 2023 15:05:07,229 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:07,229 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:07,230 TRACE org.example.jdbc.CashierDBRepository 55 findAll - Exit with([org.example.Cashier@237799aa, org.example.Cashier@1ff95464])
+02 Nov 2023 15:05:07,230 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 15:05:07,231 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:07,231 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:07,232 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 15:05:07,232 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 15:05:07,232 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:07,232 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:07,233 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 15:05:07,233 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 15:05:07,233 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:07,234 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:07,234 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@e8afec85)
+02 Nov 2023 15:05:07,235 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 15:05:07,236 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:07,237 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:07,238 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 15:05:24,623 TRACE org.example.jdbc.CashierDBRepository 76 getCashierByUserPassword - Enter find by username and password task {}
+02 Nov 2023 15:05:24,624 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:24,625 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:24,625 TRACE org.example.jdbc.CashierDBRepository 94 getCashierByUserPassword - Exit with(org.example.Cashier@27bc609a)
+02 Nov 2023 15:05:25,631 TRACE org.example.jdbc.ConcertDBRepository 61 findAll - Enter get all concerts task{}
+02 Nov 2023 15:05:25,631 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:25,631 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:25,632 TRACE org.example.jdbc.ConcertDBRepository 82 findAll - Exit with([org.example.Concert@ad7ccde1, org.example.Concert@96c86b0])
+02 Nov 2023 15:05:26,647 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 15:05:26,648 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:26,649 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:26,649 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@5ee68aa6)
+02 Nov 2023 15:05:27,658 TRACE org.example.jdbc.ArtistDBRepository 32 findOne - Enter find artist by id task{}
+02 Nov 2023 15:05:27,658 TRACE org.example.jdbc.JdbcUtils 45 getConnection - Enter
+02 Nov 2023 15:05:27,659 TRACE org.example.jdbc.JdbcUtils 54 getConnection - Exit with(org.sqlite.SQLiteConnection@291426a4)
+02 Nov 2023 15:05:27,660 TRACE org.example.jdbc.ArtistDBRepository 50 findOne - Exit with(org.example.Artist@e8afec85)

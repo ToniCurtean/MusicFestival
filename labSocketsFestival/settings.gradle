@@ -1,0 +1,8 @@
+rootProject.name = 'labSocketsFestival'
+include 'FestivalModel'
+include 'FestivalPersistance'
+include 'FestivalServices'
+include 'FestivalNetworking'
+include 'FestivalServer'
+include 'FestivalJavaFXClient'
+
